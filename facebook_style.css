@@ -1,0 +1,266 @@
+body{
+    background-blend-mode: #EDF0F5;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0px;
+    font-size: vw;
+    background-color:#EDF0F5
+    
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#3B5998;
+    color: white;
+    height: 6vw;
+    width: 100%;
+    padding-top: 2vw;
+   
+}
+
+header p {
+    font-family: 'klavika-bold';
+    font-size: 3vw;
+    margin-left: 4vw;
+    margin-bottom: 3vw;
+}
+
+header .log {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 2vw;
+  
+}
+
+.log .login {
+    width: 15vw;
+    height: 1.2vw;
+}
+header .log  div a, header .log div label {
+    color: white;
+    font-size: 1.15vw;
+}
+
+
+header .log  div {
+  line-height:1vw;
+}
+
+
+header .log  .in  a {
+    font-size: 1.2vw;
+    height: fit-content;
+    width: 5vw;
+    padding: 0.4vw;
+    color: white;
+    background-color: #4267B2;
+    border-radius: 0.5vw;
+}
+
+header .log  .in  {
+    height: fit-content;
+    margin-top: 1.5vw;
+    color: white;
+    background-color: #4267B2;
+    border-radius: 0.5vw;
+}
+
+
+h1  {
+    
+    font-size: 2.5vw;
+    margin-bottom: 0.3vw;
+}
+
+h5  {
+    
+    font-size: 1vw;
+    margin-top: 0vw;
+}
+
+.facb {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 60px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+   
+    width: max-content;
+}
+
+
+.facb .pgoc, .facb .pdrot {
+   
+
+}
+
+.facb .pgoc {
+   margin-top: 5vw;
+
+}
+
+h4  {
+    
+    font-size: 1.5vw;
+}
+
+
+.facb .pdrot {
+    margin-top: 0.1vw;
+    padding: 0px;
+   
+}
+
+
+.facb .pgoc .amaz{
+    display: grid;
+    grid-template-columns: auto  auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 0.2vw ;
+    row-gap: 1vw;
+    font-size: 1.21vw;
+}
+
+.facb .pgoc .amaz p .amazi{
+    color: rgb(134, 137, 143);
+}
+
+.facb .pgoc img {
+    width: 5vw; 
+}
+
+
+.inputq{
+        border-radius: 5px;
+        border:0.1vw solid rgb(163, 163, 163);
+        height: 2vw;
+        width: 14.27vw;
+        margin-bottom: 1vw;
+        padding-left: 0.7vw;
+        font-size: 1.15vw;
+        outline: none;
+        shape-outside: none;
+        flex-wrap: nowrap;
+        scroll-padding-inline-start: ;
+}
+
+
+.input {
+        border-radius: 5px;
+        border: 0.1vw solid rgb(163, 163, 163);
+        font-size: 1.15vw;
+        height: 2vw;
+        width: 30vw;
+        margin-bottom: 1vw;
+        padding-left: 0.7vw;
+        outline: none;
+        
+}
+
+.birth {
+    border-radius: 5px;
+        height: 2.2vw;
+        width: 4.4vw;
+        margin-bottom: 1vw;
+        padding-left: 0.2vw;
+        font-size: ;
+        background-color: rgb(255, 255, 255);
+        outline: none; 
+        flex-wrap: nowrap;
+}
+
+.naiss a img, .gender a img{
+    width: 1.1vw;
+    margin-left: 0.6vw;
+}
+
+ .gender {
+    font-size: 1.15vw;
+}
+.gris {
+    color: rgb(134, 137, 143);
+   
+}
+
+header div a em {
+    color: rgb(134, 137, 143);
+     font-style: normal;
+     margin-top: 30px;
+}
+.forgot {
+    margin-top: 0vw;
+}
+.sign {
+    width: 14.4vw;
+    height: 2.5vw;
+    color: white;
+    background-color: #5D9749;
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(30, 146, 1, 0.452);
+    border-radius: 0.5vw;
+    font-size:1.3vw ;
+    text-align: center;
+    border: 1px solid #5D9749;
+    outline: none;
+
+}
+
+.pdrot .byclick {
+    color: rgb(134, 137, 143);
+    font-size: 1vw;
+    width:25vw ;
+}
+
+.pdrot .byclick a {
+    color: rgb(12, 81, 220);
+}
+.sign:active{
+    box-shadow: 2px 2px 2px rgb(0, 75, 0);
+    
+}
+
+.radio {
+    width: 2vw;
+}
+
+.create {
+    color: rgb(134, 137, 143);
+    font-size: 1.15vw;
+    border-top: 0.1vw solid rgb(163, 163, 163);
+    
+    width: fit-content;
+    padding-top: 1vw;
+}
+
+.create strong {
+    color: rgb(12, 81, 220);
+
+}
+a {
+    text-decoration: none;
+
+}
+
+
+@font-face  {
+    font-family: 'klavika-bold';
+    src: url('i/klavika-bold.otf'); 
+  
+}
+
+
+@media all and (max-width:100vh)
+
+{ 
+
+    body {
+        font-size: ;
+    }
+
+    .facb {
+        display: block;
+    }
+}
